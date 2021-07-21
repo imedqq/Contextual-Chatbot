@@ -1,4 +1,4 @@
-# Contextual Chatbox 
+# Contextual Chatbot 
 
 Chatbot using PyTorch with NLTK(Natural Language Toolkit)
 
