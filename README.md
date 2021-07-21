@@ -3,15 +3,19 @@
 Chatbot using PyTorch with NLTK(Natural Language Toolkit)
 
 Our NLP Preprocessing Pipeline
-"Is anyone there?"
--> tokenize
-["Is","anyone","there","?"]
--> lower + stem
-["is","anyon","there","?"]
--> exclude punctuation characters
-["is","anyon","there"]
--> bag of words
-[0,0,0,1,0,1,0,1]
+
+"Is anyone there?"\
+-> tokenize\
+["Is","anyone","there","?"]\
+-> lower + stem\
+["is","anyon","there","?"]\
+-> exclude punctuation characters\
+["is","anyon","there"]\
+-> bag of words\
+[0,0,0,1,0,1,0,1]\
+
+
+
 
 1) Theory + NLP concepts (stemming, tokenization, bag of words)
 2) Create training data
@@ -37,7 +41,7 @@ Stemming: Generate the root form of the words. Crude heuristic that chops off th
 
 Create new environment in Anaconda
 ```console
-conda create --name pytorch python=3.6
+conda create --name pytorch python=2.7
 ```
 
 In Anaconda console
