@@ -41,3 +41,8 @@ pip install nltk
 
 ```
 
+download nltk tokenizer package
+uncomment comment in nltk_utils.py
+```console
+python nltk_utils.py
+```
