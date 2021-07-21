@@ -13,9 +13,15 @@ Our NLP Preprocessing Pipeline
 -> bag of words
 [0,0,0,1,0,1,0,1]
 
-NLP Basics
+1) Theory + NLP concepts (stemming, tokenization, bag of words)
+2) Create training data
+3) PyTorch model and training
+4) Save/load model and implement the chat
 
 Feed Forward Neural Net
+- Two layers
+- Takes bag of words input, pass through layer with number of patterns as input size, then a hidden layer, then the output size must be number of classes, then apply softmax probability to each classes
+
 Bag of words
 
 Tokenization: Splitting a string into meaningful units (e.g. words, punctuation characters, numbers)
