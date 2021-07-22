@@ -2,7 +2,9 @@
 
 Chatbot using PyTorch with NLTK(Natural Language Toolkit)
 
+
 Reads from json file and compares user inputs with specifically trained questions in different categories to determine the correct category it most closely falls into, then replies with a random answer from a number of preset responses according to the category of question
+
 
 Currently set up as a chat bot for an online shop that sells coffee and tea with minimal data trained with
 
@@ -41,15 +43,19 @@ Data saved in data.pth
 
 ## Notes
 Our NLP Preprocessing Pipeline
-"Is anyone there?"
--> tokenize
-["Is","anyone","there","?"]
--> lower + stem
-["is","anyon","there","?"]
--> exclude punctuation characters
-["is","anyon","there"]
--> bag of words
-[0,0,0,1,0,1,0,1]
+
+"Is anyone there?"\
+-> tokenize\
+["Is","anyone","there","?"]\
+-> lower + stem\
+["is","anyon","there","?"]\
+-> exclude punctuation characters\
+["is","anyon","there"]\
+-> bag of words\
+[0,0,0,1,0,1,0,1]\
+
+
+
 
 1) Theory + NLP concepts (stemming, tokenization, bag of words)
 2) Create training data
